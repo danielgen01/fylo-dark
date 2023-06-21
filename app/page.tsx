@@ -4,6 +4,7 @@ import IntroBanner from "./components/IntroBanner/IntroBanner"
 import Benefits from "./components/Benefits/Benefits"
 import ProductiveBanner from "./components/productiveBanner/productiveBanner"
 import Testimonials from "./components/Testimonials/Testimonials"
+import CTABannerBottom from "./components/CTABannerBottom/CTABannerBottom"
 
 export default function App() {
 	return (
@@ -14,6 +15,7 @@ export default function App() {
 				<Benefits />
 				<ProductiveBanner />
 				<Testimonials />
+				<CTABannerBottom />
 			</main>
 		</>
 	)

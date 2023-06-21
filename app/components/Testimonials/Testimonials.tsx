@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Testimonials = () => {
 	return (
-		<section className="bg-Dark-Blue-main-background min-h-[500px] px-10 py-20 ">
+		<section className="bg-Dark-Blue-main-background min-h-[500px] px-10 py-52 ">
 			<Image
 				src={"/images/bg-quotes.png"}
 				alt="quotes"
