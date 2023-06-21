@@ -3,7 +3,7 @@ import { Benefit } from "./Benefit"
 
 const Benefits = () => {
 	return (
-		<section className="min-h-[500px] bg-Dark-Blue-testimonials-background py-20 px-10 flex flex-col gap-20">
+		<section className="min-h-[500px] bg-Dark-Blue-main-background py-20 px-10 flex flex-col gap-20">
 			<Benefit
 				imgSrc={"/images/icon-access-anywhere.svg"}
 				headlineText={"Access your files, anywhere"}
