@@ -3,17 +3,17 @@ import Image from "next/image"
 
 const IntroBanner = () => {
 	return (
-		<section className="min-h-[500px] bg-Dark-Blue-intro-and-email-sign-up-background px-20 flex flex-col items-center gap-5 py-2">
+		<section className="min-h-[500px] bg-Dark-Blue-intro-and-email-sign-up-background px-20 flex flex-col items-center gap-5 py-2 lg:py-10 lg:w-screen">
 			<Image
 				src={"/images/illustration-intro.png"}
 				alt="Illustration-intro"
 				height={100}
 				width={450}
 			/>
-			<h1 className="text-white font-bold text-center text-2xl whitespace-pre-wrap ">
+			<h1 className="text-white font-bold text-center text-2xl whitespace-pre-wrap lg:text-4xl">
 				All your files in one secure location, accessible anywhere.
 			</h1>
-			<p className="text-white/70 font-semibold text-sm text-center ">
+			<p className="text-white/70 font-semibold text-sm text-center lg:text-xl">
 				Fylo stores all your most important files in one secure location. Acces
 				them wherever you need, share and collaborate with friends familie, and
 				co-workers.
@@ -24,6 +24,7 @@ const IntroBanner = () => {
 			>
 				Get Started
 			</button>
+
 		</section>
 	)
 }

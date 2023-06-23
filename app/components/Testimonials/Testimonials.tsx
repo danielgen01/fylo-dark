@@ -11,7 +11,7 @@ const Testimonials = () => {
 				width={30}
 				height={100}
 			/>
-			<div className="testimonials-list flex flex-col gap-4">
+			<div className="testimonials-list grid grid-cols-1 lg:grid-cols-3 gap-4">
 				<Testimonial
 					name="Satish Patel"
 					text="Fylo has improved our team productivity by an order of magnitude.

@@ -5,6 +5,7 @@ import Benefits from "./components/Benefits/Benefits"
 import ProductiveBanner from "./components/productiveBanner/productiveBanner"
 import Testimonials from "./components/Testimonials/Testimonials"
 import CTABannerBottom from "./components/CTABannerBottom/CTABannerBottom"
+import Footer from "./components/Footer/Footer"
 
 export default function App() {
 	return (
@@ -17,6 +18,7 @@ export default function App() {
 				<Testimonials />
 				<CTABannerBottom />
 			</main>
+			<Footer />
 		</>
 	)
 }
